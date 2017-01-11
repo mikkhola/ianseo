@@ -21,3 +21,4 @@ Example how to connect running Docker container
 Log from container can be shown with command
 
 	docker logs $(docker ps | grep ianseo | cut -d " " -f1)
+
