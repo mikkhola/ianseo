@@ -18,7 +18,7 @@ To create a new image, execute the following command:
 
 	docker build -t mikkhola/ianseo .
 
-An example how to connect tp the running Docker container:
+An example how to connect to the running Docker container:
 
 	docker exec -i -t $(docker ps | grep ianseo | cut -d " " -f1) /bin/bash
 
