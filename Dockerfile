@@ -8,3 +8,4 @@ RUN ./fetch_ianseo.sh
 EXPOSE 80 3306
 CMD ["/run.sh"]
 
+
