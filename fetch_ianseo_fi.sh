@@ -4,10 +4,10 @@ cd /
 rm -R -f /app
 mkdir -p /app
 APP_DIR=/app
-wget -q https://www.ianseo.net/Release/Ianseo_20190701.zip && unzip -o Ianseo_20190701.zip -d $APP_DIR
+wget -q https://www.ianseo.net/Release/Ianseo_20220701.zip && unzip -o Ianseo_20220701.zip -d $APP_DIR
 wget -q http://www.sjal.fi/@Bin/304890/SJAL_Paivitys.zip && unzip -o SJAL_Paivitys.zip
 
-rm -f Ianseo_20190701.zip
+rm -f Ianseo_20220701.zip
 rm -f SJAL_Paivitys.zip
 
 cp SJAL_Paivitys/index_qualification.php $APP_DIR/Qualification/index.php
