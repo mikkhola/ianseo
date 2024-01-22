@@ -8,3 +8,4 @@ RUN chmod -R a+w /app
 EXPOSE 80 3306
 CMD ["/run.sh"]
 
+
